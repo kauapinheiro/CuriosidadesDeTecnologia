@@ -190,7 +190,7 @@ aside > ul {
 }
 
 aside ul abbr {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 footer {
@@ -210,4 +210,25 @@ footer a {
 footer a:hover {
   color: var(--cor1);
   text-decoration: underline;
+}
+
+/*************** RESPONSIVE - Mobile **************/
+@media (max-width: 550px) {
+  header h1 {
+    font-size: 2.6rem;
+  }
+
+  header p {
+    font-size: 1rem;
+    margin: 0 3rem;
+  }
+
+  nav a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  article h1 {
+    font-size: 1.5rem;
+  }
 }
